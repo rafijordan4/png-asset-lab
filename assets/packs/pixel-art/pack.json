@@ -1,0 +1,53 @@
+{
+  "schema": "png-asset-lab.pack/1",
+  "id": "pixel-art",
+  "name": "Pixel Art Pack",
+  "version": "1.0.0",
+  "description": "Classic collectible pixel icons: heart, star, coin, gem and mushroom.",
+  "license": {
+    "spdx": "CC0-1.0",
+    "name": "CC0 1.0 Universal (Public Domain Dedication)",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "commercialUse": true,
+    "attributionRequired": false,
+    "notes": "Original artwork generated procedurally by the PNG Asset Lab authors for this project."
+  },
+  "preview": "../../previews/pixel-art.png",
+  "assets": [
+    {
+      "id": "heart",
+      "name": "Heart",
+      "path": "heart.png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "id": "star",
+      "name": "Star",
+      "path": "star.png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "id": "coin",
+      "name": "Coin",
+      "path": "coin.png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "id": "gem",
+      "name": "Gem",
+      "path": "gem.png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "id": "mushroom",
+      "name": "Mushroom",
+      "path": "mushroom.png",
+      "width": 32,
+      "height": 32
+    }
+  ]
+}

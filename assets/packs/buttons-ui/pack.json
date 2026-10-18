@@ -1,0 +1,53 @@
+{
+  "schema": "png-asset-lab.pack/1",
+  "id": "buttons-ui",
+  "name": "Buttons and UI Elements Pack",
+  "version": "1.0.0",
+  "description": "Buttons, checkbox, toggle and arrow for UI mockups.",
+  "license": {
+    "spdx": "CC0-1.0",
+    "name": "CC0 1.0 Universal (Public Domain Dedication)",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "commercialUse": true,
+    "attributionRequired": false,
+    "notes": "Original artwork generated procedurally by the PNG Asset Lab authors for this project."
+  },
+  "preview": "../../previews/buttons-ui.png",
+  "assets": [
+    {
+      "id": "button-purple",
+      "name": "Button Purple",
+      "path": "button-purple.png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "id": "button-blue",
+      "name": "Button Blue",
+      "path": "button-blue.png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "id": "checkbox",
+      "name": "Checkbox",
+      "path": "checkbox.png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "id": "toggle",
+      "name": "Toggle",
+      "path": "toggle.png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "id": "arrow-button",
+      "name": "Arrow Button",
+      "path": "arrow-button.png",
+      "width": 32,
+      "height": 32
+    }
+  ]
+}

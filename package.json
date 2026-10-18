@@ -1,0 +1,17 @@
+{
+  "name": "png-asset-lab",
+  "version": "1.0.0",
+  "private": true,
+  "description": "PNG Asset Lab - sprite sheet and PNG toolkit plugin for Acode (Android).",
+  "license": "MIT",
+  "repository": "https://github.com/rafijordan4/png-asset-lab",
+  "scripts": {
+    "assets": "python3 scripts/gen-assets.py && node scripts/gen-icons.js",
+    "build": "node scripts/build.js",
+    "test": "node tests/run-tests.js",
+    "validate-zip": "node tests/validate-zip.js",
+    "ui-test": "node tests/ui-smoke.js",
+    "all": "node tests/run-tests.js && node scripts/build.js && node tests/validate-zip.js"
+  },
+  "engines": { "node": ">=18" }
+}

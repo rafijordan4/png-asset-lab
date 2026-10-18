@@ -1,0 +1,53 @@
+{
+  "schema": "png-asset-lab.pack/1",
+  "id": "game-ui",
+  "name": "Game UI Pack",
+  "version": "1.0.0",
+  "description": "HUD pieces for games: health bar, mana bar, inventory slot, heart and pause button.",
+  "license": {
+    "spdx": "CC0-1.0",
+    "name": "CC0 1.0 Universal (Public Domain Dedication)",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "commercialUse": true,
+    "attributionRequired": false,
+    "notes": "Original artwork generated procedurally by the PNG Asset Lab authors for this project."
+  },
+  "preview": "../../previews/game-ui.png",
+  "assets": [
+    {
+      "id": "health-bar",
+      "name": "Health Bar",
+      "path": "health-bar.png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "id": "mana-bar",
+      "name": "Mana Bar",
+      "path": "mana-bar.png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "id": "inventory-slot",
+      "name": "Inventory Slot",
+      "path": "inventory-slot.png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "id": "heart-icon",
+      "name": "Heart Icon",
+      "path": "heart-icon.png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "id": "pause-button",
+      "name": "Pause Button",
+      "path": "pause-button.png",
+      "width": 32,
+      "height": 32
+    }
+  ]
+}

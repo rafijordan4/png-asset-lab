@@ -1,0 +1,53 @@
+{
+  "schema": "png-asset-lab.pack/1",
+  "id": "tech-icons",
+  "name": "Technology Icons Pack",
+  "version": "1.0.0",
+  "description": "Chip, monitor, phone, code and wireless icons.",
+  "license": {
+    "spdx": "CC0-1.0",
+    "name": "CC0 1.0 Universal (Public Domain Dedication)",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "commercialUse": true,
+    "attributionRequired": false,
+    "notes": "Original artwork generated procedurally by the PNG Asset Lab authors for this project."
+  },
+  "preview": "../../previews/tech-icons.png",
+  "assets": [
+    {
+      "id": "chip",
+      "name": "Chip",
+      "path": "chip.png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "id": "monitor",
+      "name": "Monitor",
+      "path": "monitor.png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "id": "phone",
+      "name": "Phone",
+      "path": "phone.png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "id": "code",
+      "name": "Code",
+      "path": "code.png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "id": "wifi",
+      "name": "Wifi",
+      "path": "wifi.png",
+      "width": 32,
+      "height": 32
+    }
+  ]
+}

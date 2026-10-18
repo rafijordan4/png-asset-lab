@@ -1,0 +1,35 @@
+name: Build PNG Asset Lab
+
+on:
+  push:
+    branches: [main]
+    tags: ["v*"]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      # No npm install: the build and tests use only Node built-ins.
+      - name: Validate manifest and run tests
+        run: node tests/run-tests.js
+      - name: Build plugin
+        run: node scripts/build.js
+      - name: Validate production ZIP
+        run: node tests/validate-zip.js
+      - name: Upload production plugin ZIP (Actions artifact, NOT a release asset)
+        uses: actions/upload-artifact@v4
+        with:
+          name: png-asset-lab-acode-plugin
+          path: dist/png-asset-lab-*-acode-plugin.zip
+          if-no-files-found: error
+      - name: Upload development project ZIP
+        uses: actions/upload-artifact@v4
+        with:
+          name: png-asset-lab-dev-project
+          path: dist/png-asset-lab-*-dev-project.zip

@@ -1,0 +1,53 @@
+{
+  "schema": "png-asset-lab.pack/1",
+  "id": "rpg-sprites",
+  "name": "RPG Sprite Pack",
+  "version": "1.0.0",
+  "description": "Fantasy RPG items and a slime enemy.",
+  "license": {
+    "spdx": "CC0-1.0",
+    "name": "CC0 1.0 Universal (Public Domain Dedication)",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "commercialUse": true,
+    "attributionRequired": false,
+    "notes": "Original artwork generated procedurally by the PNG Asset Lab authors for this project."
+  },
+  "preview": "../../previews/rpg-sprites.png",
+  "assets": [
+    {
+      "id": "sword",
+      "name": "Sword",
+      "path": "sword.png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "id": "shield",
+      "name": "Shield",
+      "path": "shield.png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "id": "potion",
+      "name": "Potion",
+      "path": "potion.png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "id": "slime",
+      "name": "Slime",
+      "path": "slime.png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "id": "key",
+      "name": "Key",
+      "path": "key.png",
+      "width": 32,
+      "height": 32
+    }
+  ]
+}

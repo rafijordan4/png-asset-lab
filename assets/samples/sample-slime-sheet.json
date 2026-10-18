@@ -1,0 +1,23 @@
+{
+  "name": "sample-slime-sheet.png",
+  "width": 192,
+  "height": 64,
+  "grid": {
+    "cols": 6,
+    "rows": 2,
+    "cellWidth": 32,
+    "cellHeight": 32,
+    "marginX": 0,
+    "marginY": 0,
+    "spacingX": 0,
+    "spacingY": 0
+  },
+  "license": {
+    "spdx": "CC0-1.0",
+    "name": "CC0 1.0 Universal (Public Domain Dedication)",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "commercialUse": true,
+    "attributionRequired": false,
+    "notes": "Original artwork generated procedurally by the PNG Asset Lab authors for this project."
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "schema": "png-asset-lab.pack/1",
+  "id": "food-icons",
+  "name": "Food Icons Pack",
+  "version": "1.0.0",
+  "description": "Simple food and drink icons.",
+  "license": {
+    "spdx": "CC0-1.0",
+    "name": "CC0 1.0 Universal (Public Domain Dedication)",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "commercialUse": true,
+    "attributionRequired": false,
+    "notes": "Original artwork generated procedurally by the PNG Asset Lab authors for this project."
+  },
+  "preview": "../../previews/food-icons.png",
+  "assets": [
+    {
+      "id": "apple",
+      "name": "Apple",
+      "path": "apple.png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "id": "burger",
+      "name": "Burger",
+      "path": "burger.png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "id": "cake",
+      "name": "Cake",
+      "path": "cake.png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "id": "cheese",
+      "name": "Cheese",
+      "path": "cheese.png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "id": "cup",
+      "name": "Cup",
+      "path": "cup.png",
+      "width": 32,
+      "height": 32
+    }
+  ]
+}

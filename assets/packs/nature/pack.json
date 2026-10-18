@@ -1,0 +1,53 @@
+{
+  "schema": "png-asset-lab.pack/1",
+  "id": "nature",
+  "name": "Nature Pack",
+  "version": "1.0.0",
+  "description": "Tree, flower, cloud, sun and leaf for platformers and maps.",
+  "license": {
+    "spdx": "CC0-1.0",
+    "name": "CC0 1.0 Universal (Public Domain Dedication)",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "commercialUse": true,
+    "attributionRequired": false,
+    "notes": "Original artwork generated procedurally by the PNG Asset Lab authors for this project."
+  },
+  "preview": "../../previews/nature.png",
+  "assets": [
+    {
+      "id": "tree",
+      "name": "Tree",
+      "path": "tree.png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "id": "flower",
+      "name": "Flower",
+      "path": "flower.png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "id": "cloud",
+      "name": "Cloud",
+      "path": "cloud.png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "id": "sun",
+      "name": "Sun",
+      "path": "sun.png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "id": "leaf",
+      "name": "Leaf",
+      "path": "leaf.png",
+      "width": 32,
+      "height": 32
+    }
+  ]
+}
